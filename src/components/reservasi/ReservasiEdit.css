@@ -1,0 +1,63 @@
+.containerReservasiEdit {
+    margin: 2.5rem auto;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.containerReservasiEdit h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.formReservasiEdit {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroupReservasiEdit {
+    margin-bottom: 1rem;
+}
+
+.formGroupReservasiEdit label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #4a5568; /* text-gray-700 */
+}
+
+.inputReservasiEdit {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e0; /* border-gray-300 */
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #4a5568; /* text-gray-700 */
+    transition: border-color 0.2s ease;
+}
+
+.inputReservasiEdit:focus {
+    outline: none;
+    border-color: #3182ce; /* border-blue-500 */
+    box-shadow: 0 0 5px rgba(49, 130, 206, 0.5); /* shadow-blue */
+}
+
+.btnReservasiEdit {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4299e1; /* bg-blue-500 */
+    color: white;
+    border: none;
+    margin-top: 1rem;
+}
+
+.btnReservasiEdit:hover {
+    background-color: #2b6cb0; /* bg-blue-700 */
+}

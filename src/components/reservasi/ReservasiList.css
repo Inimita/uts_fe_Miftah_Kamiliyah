@@ -1,0 +1,84 @@
+.containerReservasiList {
+    margin: 2rem auto;
+    max-width: 1000px;
+    padding: 2rem;
+    background-color: #533E2D;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headerReservasiList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .headerReservasiList h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .addBtnReservasiList {
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .addBtnReservasiList:hover {
+    background-color: #45a049;
+  }
+  
+  .tableWrapperReservasiList {
+    overflow-x: auto;
+  }
+  
+  .reservasiTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .reservasiTable th,
+  .reservasiTable td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .reservasiTable th {
+    background-color:#533E2D;
+    ;
+    font-weight: bold;
+  }
+  
+  .editBtnReservasiList,
+  .deleteBtnReservasiList {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .editBtnReservasiList {
+    background-color: #4299e1;
+    color: white;
+  }
+  
+  .editBtnReservasiList:hover {
+    background-color: #3182ce;
+  }
+  
+  .deleteBtnReservasiList {
+    background-color: #f56565;
+    color: white;
+    margin-left: 0.5rem;
+  }
+  
+  .deleteBtnReservasiList:hover {
+    background-color: #e53e3e;
+  }
