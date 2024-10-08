@@ -21,7 +21,7 @@ function App() {
      <BrowserRouter   basename="/UTS_Miftah_FE/">
       <div>
         <Navbar />
-        <div>
+        <div>git 
           <Routes>
             <Route path="/" element={<Dashbaords />} />
             <Route path="/customer" element={<Customer />} />
