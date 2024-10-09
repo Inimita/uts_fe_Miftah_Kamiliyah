@@ -22,7 +22,7 @@ import TransaksiEdit from "./components/transaksi/TransaksiEdit";
 function App() {
   return (
     <>
-     <BrowserRouter   basename="/testt/">
+     <BrowserRouter   basename="/uts_fe_Miftah_Kamiliyah/">
       <div>
         <Navbar />
         <div>git 
