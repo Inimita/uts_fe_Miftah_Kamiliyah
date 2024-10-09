@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/uts_fe_Miftah_Kamiliyah/static/css/main.45f8ce2e.css",
+    "main.js": "/uts_fe_Miftah_Kamiliyah/static/js/main.66b3b08c.js",
+    "index.html": "/uts_fe_Miftah_Kamiliyah/index.html",
+    "main.45f8ce2e.css.map": "/uts_fe_Miftah_Kamiliyah/static/css/main.45f8ce2e.css.map",
+    "main.66b3b08c.js.map": "/uts_fe_Miftah_Kamiliyah/static/js/main.66b3b08c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45f8ce2e.css",
+    "static/js/main.66b3b08c.js"
+  ]
+}
