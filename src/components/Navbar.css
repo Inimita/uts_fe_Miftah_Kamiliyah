@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    color : #ddca7d
+    color : #ddca7d;
 }
 containerWrapper{
     display:flex;

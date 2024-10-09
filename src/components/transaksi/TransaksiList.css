@@ -1,0 +1,93 @@
+.containerTransaksiList {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 20px;
+    background-color: #ddca7d;
+    border-radius: 8px;
+    font-family: "Poppins";
+  }
+  
+  .headerTransaksiList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .headerTransaksiList h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .addBtnTransaksiList {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #533E2D;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .addBtnTransaksiList:hover {
+    background-color: #271b11;
+  }
+  
+  .tableWrapperTransaksiList {
+    overflow-x: auto;
+  }
+  
+  .transaksiTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #533E2D;
+    color: #F8FCFF;
+    border-radius: 8px;
+  }
+  
+  .transaksiTable th,
+  .transaksiTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaksiTable th {
+    background-color: rgba(200, 200, 200, 0.2);
+    color: #fff;
+  }
+  
+  .transaksiTable tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .transaksiTable tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .editBtnTransaksiList,
+  .deleteBtnTransaksiList {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .editBtnTransaksiList {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .editBtnTransaksiList:hover {
+    background-color: #007bb5;
+  }
+  
+  .deleteBtnTransaksiList {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .deleteBtnTransaksiList:hover {
+    background-color: #d32f2f;
+  }
+  

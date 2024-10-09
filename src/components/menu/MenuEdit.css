@@ -3,8 +3,7 @@
     max-width: 800px;
     padding: 2rem;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
   }
   
   .menuEdit-title {
@@ -27,25 +26,25 @@
     display: block;
     font-weight: bold;
     margin-bottom: 0.5rem;
-    color: #4a5568; /* text-gray-700 */
+    color: #4a5568; 
   }
   
   .menuEdit-input,
   .menuEdit-select {
     width: 100%;
     padding: 0.5rem;
-    border: 1px solid #cbd5e0; /* border-gray-300 */
+    border: 1px solid #cbd5e0; 
     border-radius: 4px;
     font-size: 1rem;
-    color: #4a5568; /* text-gray-700 */
+    color: #4a5568; 
     transition: border-color 0.2s ease;
   }
   
   .menuEdit-input:focus,
   .menuEdit-select:focus {
     outline: none;
-    border-color: #3182ce; /* border-blue-500 */
-    box-shadow: 0 0 5px rgba(49, 130, 206, 0.5); /* shadow-blue */
+    border-color: #3182ce; 
+    box-shadow: 0 0 5px rgba(49, 130, 206, 0.5); 
   }
   
   .menuEdit-button {
@@ -57,23 +56,23 @@
   }
   
   .menuEdit-submit-btn {
-    background-color: #4299e1; /* bg-blue-500 */
+    background-color: #4299e1; 
     color: white;
     border: none;
   }
   
   .menuEdit-submit-btn:hover {
-    background-color: #2b6cb0; /* bg-blue-700 */
+    background-color: #2b6cb0; 
   }
   
   .menuEdit-back-btn {
-    background-color: #f56565; /* bg-red-500 */
+    background-color: #f56565; 
     color: white;
     border: none;
   }
   
   .menuEdit-back-btn:hover {
-    background-color: #c53030; /* bg-red-700 */
+    background-color: #c53030; 
   }
   
   .menuEdit-back-btn a {

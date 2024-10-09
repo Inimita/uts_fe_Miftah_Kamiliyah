@@ -1,6 +1,4 @@
-/* MenuList.css */
-
-.container {
+.container-menu {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
@@ -42,13 +40,7 @@ h1 {
 }
 
 .add-btn {
-  /* background-color: #4caf50;
-  color: white;
-
- M
-  border: none;
-  border-radius: 5px;
-   */
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +58,7 @@ h1 {
 }
 
 .add-btn:hover {
-  background-color: #45a049;
+    background-color: #271b11;
 }
 
 .table-wrapper {

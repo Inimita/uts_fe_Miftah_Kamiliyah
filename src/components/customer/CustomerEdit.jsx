@@ -30,7 +30,7 @@ const CustomerEdit = () => {
 
   const getCustomerById = async () => {
     try {
-      const response = await axios.get(`http://localhost:3001/customer/find/${id}`);
+      const response = await axios.get(`http://localhost:3001/customer/${id}`);
       setNamaCustomer(response.data.nama_customer);
       setEmail(response.data.email);
       setNoTelepon(response.data.no_telfon);

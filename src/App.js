@@ -5,8 +5,7 @@ import "./App.css"
 import Dashbaords from "./components/Dashbaords";
 import Customer from "./components/customer/CustomerList";
 import Menu from "./components/menu/MenuList";
-import Transaksi from "./components/transaksi/Transaksi";
-import Cafe from "./components/cafe/Cafe";
+import Cafe from "./components/cafe/CafesList";
 import MenuAdd from "./components/menu/menuAdd";
 import MenuEdit from "./components/menu/menuEdit";
 import Reservasi from "./components/reservasi/ReservasiList";
@@ -14,6 +13,11 @@ import ReservasiAdd from "./components/reservasi/ReservasiAdd";
 import ReservasiEdit from "./components/reservasi/ReservasiEdit";
 import CustomerAdd from "./components/customer/CustomerAdd";
 import CustomerEdit from "./components/customer/CustomerEdit";
+import CafeAdd from "./components/cafe/CafeAdd";
+import CafeEdit from "./components/cafe/CafeEdit";
+import TransaksiList from "./components/transaksi/TransaksiList";
+import TransaksiAdd from "./components/transaksi/TransaksiAdd";
+import TransaksiEdit from "./components/transaksi/TransaksiEdit";
 
 function App() {
   return (
@@ -33,9 +37,12 @@ function App() {
             <Route path="/reservasi" element={<Reservasi />} />
             <Route path="/reservasi/add" element={<ReservasiAdd />} />
             <Route path="/reservasi/edit/:id" element={<ReservasiEdit />} />
-            <Route path="/transaksi" element={<Transaksi />} />
             <Route path="/cafe" element={<Cafe />} />
-        
+            <Route path="/cafe/add" element={<CafeAdd />} />
+            <Route path="/cafe/edit/:id" element={<CafeEdit />} />
+            <Route path="/transaksi" element={<TransaksiList />} />
+            <Route path="/transaksi/add" element={<TransaksiAdd />} />
+            <Route path="/transaksi/edit/:id" element={<TransaksiEdit />} />
           </Routes>
         </div>
       </div>

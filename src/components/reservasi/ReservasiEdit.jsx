@@ -15,7 +15,7 @@ const ReservasiEdit = () => {
 
   const getReservasiById = async () => {
     try {
-      const response = await axios.get(`http://localhost:3001/reservasi/find/${id}`);
+      const response = await axios.get(`http://localhost:3001/reservasi/${id}`);
       setTanggalReservasi(response.data.tanggal_reservasi);
       setKapasitas(response.data.kapasitas);
     } catch (error) {

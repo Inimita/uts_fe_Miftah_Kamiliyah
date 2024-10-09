@@ -1,35 +1,37 @@
-.containerReservasiEdit {
+.cafeEdit-container {
     margin: 2.5rem auto;
     max-width: 800px;
     padding: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.containerReservasiEdit h1 {
+.cafeEdit-title {
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1.5rem;
 }
 
-.formReservasiEdit {
+.cafeEdit-form {
     display: flex;
     flex-direction: column;
 }
 
-.formGroupReservasiEdit {
+.cafeEdit-form-group {
     margin-bottom: 1rem;
 }
 
-.formGroupReservasiEdit label {
+.cafeEdit-label {
     display: block;
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: #4a5568; 
 }
 
-.inputReservasiEdit {
+.cafeEdit-input,
+.cafeEdit-select {
     width: 100%;
     padding: 0.5rem;
     border: 1px solid #cbd5e0; 
@@ -39,24 +41,50 @@
     transition: border-color 0.2s ease;
 }
 
-.inputReservasiEdit:focus {
+.cafeEdit-input:focus,
+.cafeEdit-select:focus {
     outline: none;
-    border-color: #3182ce;
+    border-color: #3182ce; 
     box-shadow: 0 0 5px rgba(49, 130, 206, 0.5); 
 }
 
-.btnReservasiEdit {
+.cafeEdit-button {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.cafeEdit-submit-btn {
     background-color: #4299e1; 
     color: white;
     border: none;
-    margin-top: 1rem;
 }
 
-.btnReservasiEdit:hover {
+.cafeEdit-submit-btn:hover {
     background-color: #2b6cb0; 
+}
+
+.cafeEdit-back-btn {
+    background-color: #f56565; 
+    color: white;
+    border: none;
+}
+
+.cafeEdit-back-btn:hover {
+    background-color: #c53030; 
+}
+
+.cafeEdit-back-btn a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.cafeEdit-flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 }

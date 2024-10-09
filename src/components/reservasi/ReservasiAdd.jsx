@@ -11,7 +11,7 @@ const ReservasiAdd = () => {
   const saveReservasi = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:3001/reservasi/add", {
+      await axios.post("http://localhost:3001/reservasi/post", {
         tanggal_reservasi: tanggalReservasi,
         kapasitas: kapasitas,
       });
